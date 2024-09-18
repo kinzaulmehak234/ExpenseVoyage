@@ -1,5 +1,17 @@
 @extends('layouts.website_main')
 @section('main_section')
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4">Our Blog</h1>
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-white">Blog</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
 <!-- Blog Start -->
 <div class="container-fluid blog py-5">
     <div class="container py-5">
@@ -20,16 +32,16 @@
                             </div>
                         </div>
                         <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                            <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                            <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-primary me-2"></i>1K</a>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-info me-2"></i>28 Jan 2050</small>
+                            <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-info me-2"></i>1.7K</a>
+                            <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-info me-2"></i>1K</a>
                         </div>
                     </div>
                     <div class="blog-content border border-top-0 rounded-bottom p-4">
                         <p class="mb-3">Posted By: Royal Hamblin </p>
                         <a href="#" class="h4">Adventures Trip</a>
                         <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                        <a href="#" class="btn btn-info rounded-pill py-2 px-4">Read More</a>
                     </div>
                 </div>
             </div>
@@ -43,16 +55,16 @@
                             </div>
                         </div>
                         <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                            <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                            <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-primary me-2"></i>1K</a>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-info me-2"></i>28 Jan 2050</small>
+                            <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-info me-2"></i>1.7K</a>
+                            <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-info me-2"></i>1K</a>
                         </div>
                     </div>
                     <div class="blog-content border border-top-0 rounded-bottom p-4">
                         <p class="mb-3">Posted By: Royal Hamblin </p>
                         <a href="#" class="h4">Adventures Trip</a>
                         <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                        <a href="#" class="btn btn-info rounded-pill py-2 px-4">Read More</a>
                     </div>
                 </div>
             </div>
@@ -66,16 +78,16 @@
                             </div>
                         </div>
                         <div class="blog-info d-flex align-items-center border border-start-0 border-end-0">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>28 Jan 2050</small>
-                            <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-primary me-2"></i>1.7K</a>
-                            <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-primary me-2"></i>1K</a>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-info me-2"></i>28 Jan 2050</small>
+                            <a href="#" class="btn-hover flex-fill text-center text-white border-end py-2"><i class="fa fa-thumbs-up text-info me-2"></i>1.7K</a>
+                            <a href="#" class="btn-hover flex-fill text-center text-white py-2"><i class="fa fa-comments text-info me-2"></i>1K</a>
                         </div>
                     </div>
                     <div class="blog-content border border-top-0 rounded-bottom p-4">
                         <p class="mb-3">Posted By: Royal Hamblin </p>
                         <a href="#" class="h4">Adventures Trip</a>
                         <p class="my-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
-                        <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                        <a href="#" class="btn btn-info rounded-pill py-2 px-4">Read More</a>
                     </div>
                 </div>
             </div>
@@ -93,8 +105,8 @@
             <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.
             </p>
             <div class="position-relative mx-auto">
-                <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                <input class="form-control border-info rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                <button type="button" class="btn btn-info rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
             </div>
         </div>
     </div>

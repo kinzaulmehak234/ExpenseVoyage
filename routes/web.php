@@ -33,7 +33,7 @@ Route::get('/testimonial', function () {
 Route::get('/guides', function () {
     return view('ExpenseVoyage.guides');
 });
-Route::get('/package', function () {
+Route::get('/packages', function () {
     return view('ExpenseVoyage.package');
 });
 Route::get('/service', function () {
