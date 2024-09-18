@@ -2,13 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-
-// website routes
-
 Route::get('/', function () {
-    return view('ExpenseVoyage.index');
+    return view('welcome');
 });
 
+<<<<<<< Updated upstream
 Route::get('/about', function () {
     return view('ExpenseVoyage.about');
 });
@@ -44,6 +42,8 @@ Route::get('/tour', function () {
 });
 
 
+=======
+>>>>>>> Stashed changes
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
