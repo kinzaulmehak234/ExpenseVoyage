@@ -44,7 +44,8 @@
                     </div>
                     <div class="col-lg-8">
                         <h3 class="mb-2">Send us a message</h3>
-                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                        <p class="mb-4">Are you ready to transform the way you manage travel expenses? Sign up today and experience the freedom of hassle-free budgeting. Let’s make every journey a smooth one together! <a href="https://htmlcodex.com/contact-form">Download Now</a>
+                            .</p>
                         <form>
                             <div class="row g-3">
                                 <div class="col-md-6">

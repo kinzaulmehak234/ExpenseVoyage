@@ -29,27 +29,14 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Links</h4>
+                            <a href="{{ url('') }}"><i class="fas fa-angle-right me-2"></i>Home</a>
                             <a href="{{ url('about') }}"><i class="fas fa-angle-right me-2"></i> About</a>
-                            <a href="{{ url('blog') }}"><i class="fas fa-angle-right me-2"></i> Blog</a>
                             <a href="{{url('contact')}}"><i class="fas fa-angle-right me-2"></i> Contact</a>
 
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-
-                            <h4 class="text-white mb-3">Payments</h4>
-                            <div class="footer-bank-card">
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-amex fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-visa fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fas fa-credit-card fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-mastercard fa-2x"></i></a>
-                                <a href="#" class="text-white me-2"><i class="fab fa-cc-paypal fa-2x"></i></a>
-                                <a href="#" class="text-white"><i class="fab fa-cc-discover fa-2x"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
